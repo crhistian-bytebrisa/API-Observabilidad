@@ -1,0 +1,12 @@
+target/
+.mvn
+mvnw
+mvnw.cmd
+.git
+.gitignore
+.gitattributes
+.idea
+.vscode
+docker-compose.yml
+Dockerfile
+README.md
