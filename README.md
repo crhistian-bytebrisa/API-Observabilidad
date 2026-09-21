@@ -25,7 +25,7 @@ Quedan estas cosas corriendo:
 |-------------------|--------------------------------------------|
 | API Spring Boot   | http://localhost:8080                      |
 | Swagger UI        | http://localhost:8080/swagger-ui.html      |
-| PostgreSQL        | localhost:5432 (usuario/BD: ventas)        |
+| PostgreSQL        | localhost:5432 (usuario/BD: admin)         |
 
 ## Endpoints
 
