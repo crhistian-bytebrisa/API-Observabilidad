@@ -230,8 +230,7 @@ Paneles incluidos:
 
 | Sección                          | Panel                 | Query principal                     |
 |----------------------------------|-----------------------|-------------------------------------|
-| Estado general                   | Tiempo activo de la API | `process_uptime_seconds`          |
-|                                  | Total de peticiones   | `sum(http_server_requests_seconds_count)` |
+| Estado general                   | Total de peticiones   | `sum(http_server_requests_seconds_count)` |
 |                                  | Respuestas 4xx        | `sum(...{status=~"4[0-9][0-9]"})`  |
 |                                  | Respuestas 5xx        | `sum(...{status=~"5[0-9][0-9]"})`  |
 | Recursos del sistema (RAM/CPU)   | RAM usada / libre / total | `ventas_ram_*_bytes`            |
